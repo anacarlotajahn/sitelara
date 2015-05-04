@@ -1,0 +1,8 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "nprogress";
+@import "nprogress-bootstrap";
+$nprogress-color: #a20000;
+@import "layouts/sidebar";
+@import "pages/home";
+@import "base/base";

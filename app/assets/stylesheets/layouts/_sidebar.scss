@@ -1,0 +1,37 @@
+.sidebar__wrapper {
+  background: #528c90;
+  height: 100vh;
+  padding: 0 10px 10px 0;
+}
+
+.sidebar {
+  min-height: 98%;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 50px;
+}
+.menu {
+  padding-top: 60px;
+  padding-right: 100px;
+  text-align: right;
+}
+
+.menu li {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 15px 0;
+  font-weight: 300;
+}
+
+.menu a {
+  color: #fffbf1;
+  &:hover{
+    font-weight: 600;
+    color: #484745;
+    text-decoration: none;
+  }
+}
