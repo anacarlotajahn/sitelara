@@ -1,0 +1,19 @@
+footer {
+  height: 400px;
+  background-color: #222222;
+  font-family: 'dosis';
+  a {
+    color: #6a6a6a;
+  }
+  .container {
+    height: 60px;
+  }
+}
+
+footer .container nav ul {
+  margin-top: 20px;
+  li {
+  display: inline;
+  margin-left: 20px;
+  }
+}

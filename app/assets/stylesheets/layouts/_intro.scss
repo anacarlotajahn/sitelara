@@ -1,18 +1,18 @@
 .intro {
-  padding: 40px 0;
+  padding: 60px 0;
+  height: 235px;
   .logo {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     img {
-      width: 190px;
+      width: 150px;
     }
   }
   .description {
-    width: 780px;
     text-align: center;
     margin: auto;
     color: #6a6a6a;
     font-weight: 300;
+    font-size: 90%;
   }
 }
-
