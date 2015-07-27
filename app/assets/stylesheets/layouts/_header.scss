@@ -1,0 +1,25 @@
+header {
+  background-color: #fff;
+  border-top: 8px solid #49a09d;
+  font-family: 'dosis';
+  a {
+    color: #6a6a6a;
+  }
+  .container {
+    height: 60px;
+  }
+}
+
+header .container nav ul {
+  float: right;
+  margin-top: 20px;
+  li {
+  display: inline;
+  margin-left: 20px;
+  }
+}
+
+.stripedline {
+  background: asset_url("stripe.png") repeat;
+  height: 13px;
+}

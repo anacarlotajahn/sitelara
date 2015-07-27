@@ -3,6 +3,7 @@
 @import "nprogress";
 @import "nprogress-bootstrap";
 $nprogress-color: #a20000;
-@import "layouts/sidebar";
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,500,600);
 @import "pages/home";
 @import "base/base";
+@import "layouts/header";
