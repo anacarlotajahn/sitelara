@@ -1,19 +1,26 @@
 footer {
-  height: 400px;
+  height: 230px;
   background-color: #222222;
   font-family: 'dosis';
+  padding: 40px 0;
   a {
     color: #6a6a6a;
   }
   .container {
     height: 60px;
   }
+  img {
+  display: block;
+  margin: auto;
+  }
 }
 
 footer .container nav ul {
-  margin-top: 20px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 0;
   li {
   display: inline;
-  margin-left: 20px;
+  margin: 0 10px;
   }
 }

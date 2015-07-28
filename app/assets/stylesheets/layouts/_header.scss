@@ -2,17 +2,19 @@ header {
   background-color: #fff;
   border-top: 8px solid #49a09d;
   font-family: 'dosis';
+  font-weight: 200;
   a {
     color: #6a6a6a;
   }
   .container {
     height: 60px;
+    display: block;
   }
 }
 
 header .container nav ul {
   float: right;
-  margin-top: 20px;
+  margin-top: 23px;
   li {
   display: inline;
   margin-left: 20px;
