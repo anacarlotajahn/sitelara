@@ -8,3 +8,123 @@
   border: 1px solid #49a09d;
 
 }
+.sobre {
+  background: asset_url("stripe3.png") repeat;
+  padding: 40px 0 40px 0;
+  h1 {
+    font-size: 190%;
+    font-family: 'dosis';
+    font-weight: 300;
+    color: #49a09d;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+.sobre .container .row .sobreitem  {
+  margin: 40px 0;
+  p {
+    font-size: 110%;
+    font-weight: 300;
+    color: #222;
+    max-width: 205px;
+    margin: auto;
+    text-align: center;
+    padding-top: 3px;
+  }
+  h2 {
+    font-size: 110%;
+    font-weight: 400;
+    color: #222;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+.bglogoidvisual {
+  margin: auto;
+  background: #fff asset-url("idvisual.png") no-repeat center center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.bglogoilustracao {
+  margin: auto;
+  background: #fff asset-url("ilustracao.png") no-repeat center center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.bglogoeditorial {
+  margin: auto;
+  background: #fff asset-url("editorial.png") no-repeat center center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.bglogoembalagem {
+  margin: auto;
+  background: #fff asset-url("embalagem.png") no-repeat center center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.textosobre {
+  padding: 80px 0 90px 0;
+  background-color: #fff;
+  margin-top: 40px;
+  h2 {
+    font-size: 110%;
+    font-weight: 400;
+    color: #222;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 130%;
+    padding-top: 20px;
+  }
+}
+.contato .container {
+  background: asset-url("bgcontato.png") no-repeat center center;
+  height: 545px;
+  width: 100%;
+  padding: 40px 0 60px 0;
+  h1 {
+    font-size: 190%;
+    font-family: 'dosis';
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 110%;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+  }
+  label {
+    color: #fff;
+    font-weight: 300;
+  }
+  input {
+    height: 37px;
+    width: 230px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+  }
+   textarea {
+    width: 230px;
+    margin-bottom: 15px;
+  }
+  button {
+    background-color: #fff;
+    color: #49a09d;
+    border: none;
+    padding: 7px 11px;
+  }
+}
+.formemail {
+  margin-top: 30px;
+}

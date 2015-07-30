@@ -3,14 +3,20 @@ header {
   border-top: 8px solid #49a09d;
   font-family: 'dosis';
   font-weight: 200;
-  a {
-    color: #6a6a6a;
-  }
   .container {
     height: 60px;
-    display: block;
   }
 }
+header a {
+  color: #6a6a6a;
+  padding: 4px;
+  border: 1px solid #fff;
+  &:hover {
+    border: 1px solid #49a09d;
+    text-decoration: none;
+  }
+}
+
 
 header .container nav ul {
   float: right;
