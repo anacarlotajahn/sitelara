@@ -7,9 +7,7 @@ html
     = csrf_meta_tags
   body
     = initjs_tag 'Sitelara'
-    .container-fluid
-      .row.no-pad
-        = render "layouts/header"
-        = render "layouts/intro"
-        = yield
-        = render "layouts/footer"
+    = render "layouts/header"
+    = render "layouts/intro"
+    = yield
+    = render "layouts/footer"

@@ -31,3 +31,16 @@ header .container nav ul {
   background: asset_url("stripe2.png") repeat;
   height: 13px;
 }
+
+
+.navbar-default {
+  background-color: #fff;
+  border: none;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a  {
+    padding: 7px 12px;
+    margin: 15px 10px;
+  }
+}

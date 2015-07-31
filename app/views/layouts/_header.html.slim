@@ -1,8 +1,26 @@
 header
-  .container
+  /.container
     nav
       ul
         li = link_to "TRABALHOS", "#todo"
         li = link_to "SOBRE", "#todo"
         li = link_to "CONTATO", "#todo"
+
+
+  nav.navbar.navbar-default
+    / Change to .container if you don't want it fluid
+    .container-fluid
+      / Brand and toggle get grouped for better mobile display
+      .navbar-header
+        button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      / Collect the nav links, forms, and other content for toggling
+      .collapse.navbar-collapse#bs-example-navbar-collapse-1
+        ul.nav.navbar-nav.navbar-right
+          li = link_to "TRABALHOS", "#todo"
+          li = link_to "SOBRE", "#todo"
+          li = link_to "CONTATO", "#todo"
   .stripedline

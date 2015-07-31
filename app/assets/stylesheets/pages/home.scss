@@ -1,9 +1,7 @@
 .trabalhosindex {
   background-color: #fff;
   height: 600px;
-  width: 90%;
   margin-top: 50px;
-  margin-left: 5%;
   margin-bottom: 50px;
   border: 1px solid #49a09d;
 
@@ -20,7 +18,7 @@
     margin-bottom: 10px;
   }
 }
-.sobre .container .row .sobreitem  {
+.sobreitem  {
   margin: 40px 0;
   p {
     font-size: 110%;
@@ -85,11 +83,11 @@
     padding-top: 20px;
   }
 }
-.contato .container {
+.contato {
   background: asset-url("bgcontato.png") no-repeat center center;
-  height: 545px;
+  background-size: cover;
   width: 100%;
-  padding: 40px 0 60px 0;
+  padding: 40px 0 80px 0;
   h1 {
     font-size: 190%;
     font-family: 'dosis';
@@ -103,28 +101,52 @@
     font-weight: 200;
     color: #fff;
     text-align: center;
+    margin-bottom: 20px;
   }
   label {
     color: #fff;
     font-weight: 300;
   }
-  input {
+  input[type="text"], input[type="email"] {
     height: 37px;
-    width: 230px;
+    width: 100%;
     margin-bottom: 15px;
-    padding-left: 5px;
+    padding-left: 10px;
+    font-weight: 300;
   }
    textarea {
-    width: 230px;
+    height: 75px;
+    width: 100%;
+    padding-left: 10px;
     margin-bottom: 15px;
+    font-weight: 300;
+    resize: vertical;
   }
-  button {
-    background-color: #fff;
-    color: #49a09d;
+  input[type="submit"] {
+    background-color: #1B5D5A;
+    width: 100%;
+    color: #fff;
     border: none;
-    padding: 7px 11px;
+    padding: 12px 0;
+    margin-top: 20px;
+    &:hover {
+      background-color: #222;
+    }
   }
 }
-.formemail {
-  margin-top: 30px;
+.alert {
+  margin: 0 !important;
+  color: red !important;
+  font-size: 110% !important;
+  padding-left: 0 !important;
+} 
+.error {
+  color: red;
+  top: -15px;
+  position: relative;
+}
+.field_with_errors {
+  input, textarea {
+    border: 2px solid red;
+  }
 }

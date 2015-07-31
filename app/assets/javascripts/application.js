@@ -13,8 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require sitelara/sitelara.js
 //= require init.js
+//= require sitelara/sitelara.js
 //= require_tree .
 //= require bootstrap-sprockets
 //= require nprogress
