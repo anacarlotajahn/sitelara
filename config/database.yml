@@ -1,12 +1,16 @@
 development:
   adapter: postgresql
   database: sitelara_development
+  user: andre
+  password: andre
   host: localhost
   poor: 5
 
 test:
   adapter: postgresql
   database: sitelara_test
+  user: andre
+  password: andre
   host: localhost
   poor: 5
 

@@ -1,6 +1,6 @@
 .container
   .trabalhosindex
-  
+
 .sobre
   h1 SOBRE
   .container
@@ -40,5 +40,5 @@
           = f.error_notification
           = f.input :name, label: "Nome Completo", required: true, placeholder: "Digite seu nome completo"
           = f.input :email, label: "E-mail", required: true, required: :required, placeholder: "Digite seu e-mail"
-          = f.input :email, label: "Mensagem", required: true, required: :required, placeholder: "Digite sua mensagem", as: :text
+          = f.input :message, label: "Mensagem", required: true, required: :required, placeholder: "Digite sua mensagem", as: :text
           = f.button :submit, "Enviar", class: "btn btn-default"
